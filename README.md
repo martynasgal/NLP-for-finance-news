@@ -1,5 +1,4 @@
-# NLP-for-finance-news
-NLP for Finance News
+# Data Science for Quantitative Finance - Assignment 2
 
 Two csv files are provided: train_data.csv and test_data.csv. Each of them contains two columns “Sentence” and “Bad Sentence”. The “Sentence” column contains sentences coming from financial news streams. The “Bad Sentence” column is just a flag that is 1 when the sentence is a bad sentence (i.e., does not report any news by itself) and 0 when is actually reporting something. You have to create a program calls “clean_news.py” that uses the training data to train an XGBClassifier model with a TfidfVectorizer and then uses the resulting model to predict bad sentences on the test data:
 
